@@ -2,9 +2,9 @@ package class_Constructor_AccessModifiers_17March2023;
 
 public class StudentClassDemo {
 
-	String name;
-	int age;
-	String address;
+	private String name;
+	private int age;
+	private String address;
 
 	public StudentClassDemo(String name, int age, String address) {
 		this.name = name;

@@ -1,29 +1,29 @@
 package class_Constructor_AccessModifiers_17March2023;
 
 public class CuboidConstructorDemo {
-	int width;
-	int height;
-	int depth;
+	private int width;
+	private int height;
+	private int depth;
 
-	CuboidConstructorDemo(int width, int height, int depth) {
+	public CuboidConstructorDemo(int width, int height, int depth) {
 		this.width = width;
 		this.height = height;
 		this.depth = depth;
 	}
 
-	CuboidConstructorDemo(int width, int height) {
+	public CuboidConstructorDemo(int width, int height) {
 		this.width = width;
 		this.height = height;
 		this.depth = 10;
 	}
 
-	CuboidConstructorDemo(int dimension) {
+	public CuboidConstructorDemo(int dimension) {
 		width = dimension;
 		height = dimension;
 		depth = dimension;
 	}
 
-	CuboidConstructorDemo() {
+	public CuboidConstructorDemo() {
 		this.width = 5;
 		this.height = 5;
 		this.depth = 5;
