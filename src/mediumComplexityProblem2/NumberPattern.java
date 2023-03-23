@@ -1,9 +1,9 @@
 package mediumComplexityProblem2;
 
 public class NumberPattern {
-    private int i, j, row = 4;
+    private int i, j;
 
-    public void pattern() {
+    public void pattern(int row) {
         for (i = 1; i <= row; i++) {
             for (j = 1; j <= row - i; j++) {
                 System.out.print(" ");
@@ -20,7 +20,7 @@ public class NumberPattern {
 
     public static void main(String[] args) {
         NumberPattern p1 = new NumberPattern();
-        p1.pattern();
+        p1.pattern(4);
     }
 
 }
