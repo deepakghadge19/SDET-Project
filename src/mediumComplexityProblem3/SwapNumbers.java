@@ -30,7 +30,7 @@ public class SwapNumbers {
             arr[0] = lastNum;
             arr[arr.length - 1] = temp;
             //printing modified array
-            System.out.println("Modified Array is :" + Arrays.toString(arr));
+            System.out.println("Modified Array after swap the first and last elements :" + Arrays.toString(arr));
         } else {
             System.out.println("Last Array value:" + lastNum + " is not a prime number so elements are not swapped");
         }
@@ -38,9 +38,15 @@ public class SwapNumbers {
 
     public static void main(String[] args) {
         SwapNumbers swapNumbers = new SwapNumbers();
-        //int[] arr = new int[]{1, 2, 3, 7};
-        int[] arr = new int[]{1, 6, 7, 9, 8};
-        swapNumbers.swapEnds(arr);
+        int[] arr1 = new int[]{1, 2, 3, 7};
+        int[] arr2 = new int[]{1, 2, 3};
+        int[] arr3 = new int[]{1, 6, 7, 9, 8};
+        System.out.println("\n-------1st array of integers------------");
+        swapNumbers.swapEnds(arr1);
+        System.out.println("\n-------2nd array of integers------------");
+        swapNumbers.swapEnds(arr2);
+        System.out.println("\n-------3rd array of integers------------");
+        swapNumbers.swapEnds(arr3);
     }
 }
 
