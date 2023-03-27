@@ -5,25 +5,25 @@ import java.util.List;
 
 public class ArrayListFeature {
     public void arrayListOperation() {
-        List<Integer> arrayList = new ArrayList<>();
-        arrayList.add(10);
-        arrayList.add(20);
-        arrayList.add(30);
-        arrayList.add(40);
+        List<String> arrayList = new ArrayList<>();
+        arrayList.add("Deepak");
+        arrayList.add("Suyog");
+        arrayList.add("Nikhil");
+        arrayList.add("Dipesh");
 
-        System.out.println("Size of array list before remove elements :" + arrayList.size());
-        System.out.println("Array list before remove elements :" + arrayList);
+        System.out.println("Size of array list before remove element :" + arrayList.size());
+        System.out.println("Array list before remove element :" + arrayList);
 
         // Remove elements from ArrayList
-        System.out.println("\nElement removed from arrayList is :" + arrayList.remove(1));
-
-        System.out.println("\nSize of array list after remove elements :" + arrayList.size());
-        System.out.println("Array list after remove element :" + arrayList);
+        boolean isRemoved = arrayList.remove("Suyog");
+        System.out.println("\nCheck the element is removed or not(true/false) : " + isRemoved);
+        System.out.println("Array list after remove the element :" + arrayList);
+        System.out.println("Size of array list after remove elements :" + arrayList.size());
 
         // Print all elements from ArrayList
         System.out.println("\nPrint all elements from ArrayList :");
-        for (int num : arrayList) {
-            System.out.print(num + " ");
+        for (String name : arrayList) {
+            System.out.print(name + " ");
         }
     }
 
@@ -33,14 +33,13 @@ public class ArrayListFeature {
     }
 }
 /*===============OUTPUT============
-Size of array list before remove elements :4
-Array list before remove elements :[10, 20, 30, 40]
+Size of array list before remove element :4
+Array list before remove element :[Deepak, Suyog, Nikhil, Dipesh]
 
-Element removed from arrayList is :20
-
+Check the element is removed or not(true/false) : true
+Array list after remove the element :[Deepak, Nikhil, Dipesh]
 Size of array list after remove elements :3
-Array list after remove element :[10, 30, 40]
 
 Print all elements from ArrayList :
-10 30 40
+Deepak Nikhil Dipesh 
  */
