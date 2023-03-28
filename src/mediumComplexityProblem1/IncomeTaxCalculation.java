@@ -8,8 +8,6 @@ Rs. 7,00,000-10,00,000 15% on additional amount
 Rs. 10,00,000-15,00,000 20% on additional amount Above 15,00,000 30% on additional amount
 Result: - income tax is ……………………………. */
 
-import java.util.Scanner;
-
 public class IncomeTaxCalculation {
     private double totalTax;
     private double taxableIncome;
@@ -30,19 +28,26 @@ public class IncomeTaxCalculation {
 
     public static void main(String[] args) {
         IncomeTaxCalculation incomeTaxCalculation = new IncomeTaxCalculation();
+        System.out.println("\nTotal Taxable Income : 700000");
+        incomeTaxCalculation.findIncomeTax(700000);
+        System.out.println("\nTotal Taxable Income : 800000");
+        incomeTaxCalculation.findIncomeTax(800000);
+        System.out.println("\nTotal Taxable Income : 1400000");
+        incomeTaxCalculation.findIncomeTax(1400000);
+        System.out.println("\nTotal Taxable Income : 1600000");
         incomeTaxCalculation.findIncomeTax(1600000);
     }
 }
 /*OUTPUT :
-Enter income : 700000
+Total Taxable Income : 700000
 Income tax amount is :0.0
 
-Enter income : 800000
+Total Taxable Income : 800000
 Income tax amount is :35000.0
 
-Enter income : 1400000
+Total Taxable Income : 1400000
 Income tax amount is :145000.0
 
-Enter income : 1600000
+Total Taxable Income : 1600000
 Income tax amount is :195000.0
  */
