@@ -1,26 +1,26 @@
 package mediumComplexityProblem2;
 
 public class NumberPattern {
-    private int i, j;
+    private int row, column;
 
-    public void pattern(int row) {
-        for (i = 1; i <= row; i++) {
-            for (j = 1; j <= row - i; j++) {
+    public void pattern(int totalRow) {
+        for (row = 1; row <= totalRow; row++) {
+            for (column = 1; column <= totalRow - row; column++) {
                 System.out.print(" ");
             }
-            for (j = i; j >= 1; j--) {
-                System.out.print(j);
+            for (column = row; column >= 1; column--) {
+                System.out.print(column);
             }
-            for (j = 2; j <= i; j++) {
-                System.out.print(j);
+            for (column = 2; column <= row; column++) {
+                System.out.print(column);
             }
             System.out.println();
         }
     }
 
     public static void main(String[] args) {
-        NumberPattern p1 = new NumberPattern();
-        p1.pattern(4);
+        NumberPattern numberPattern = new NumberPattern();
+        System.out.println("Number pattern as below :");
+        numberPattern.pattern(4);
     }
-
 }
