@@ -1,0 +1,16 @@
+Q2. Java program to print the following patterns
+      1
+     212
+    32123
+   4321234
+#----------------------------------------------------------
+Input : 4
+
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=61185:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem2.NumberPattern
+Number pattern as below :
+   1
+  212
+ 32123
+4321234
+
+Process finished with exit code 0
