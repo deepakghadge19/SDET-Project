@@ -35,14 +35,3 @@ public class ArrayListFeature {
         arrayListFeature.arrayListOperation();
     }
 }
-/*===============OUTPUT============
-Size of array list before remove element :4
-Array list before remove element :[deepak, suyog, nikhil, dipesh]
-
-Element 'suyog' is removed from ArrayList
-Array list after remove the element :[deepak, nikhil, dipesh]
-Size of array list after remove elements :3
-
-Print all elements from ArrayList :
-deepak nikhil dipesh
- */

@@ -1,0 +1,13 @@
+OUTPUT :
+
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=53788:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" controlFlowCodingPractice_15March2023.ArrayListFeature
+Size of array list before remove element :4
+Array list before remove element :[deepak, suyog, nikhil, dipesh]
+
+Element 'suyog' is removed from ArrayList
+Array list after remove the element :[deepak, nikhil, dipesh]
+Size of array list after remove elements :3
+
+Print all elements from ArrayList :
+deepak nikhil dipesh
+Process finished with exit code 0
