@@ -5,7 +5,6 @@ import java.util.Set;
 
 public class HashSetFeature {
     public void hashSetOperations() {
-        //Set<String> hashset = new HashSet<>();
         Set hashset = new HashSet();
         hashset.add("deepak");
         hashset.add("suyog");
@@ -28,9 +27,21 @@ public class HashSetFeature {
     }
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         HashSetFeature hashSetFeature = new HashSetFeature();
         hashSetFeature.hashSetOperations();
     }
-
 }
+/*OUTPUT
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=59434:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" collections_16March2023.HashSetFeature
+All added elements from hash set :[nitin, suyog, prasad, deepak]
+
+Element 'prasad' is removed from HashSet
+Hash set after remove the element :[nitin, suyog, deepak]
+
+Print all elements from HashSet :
+nitin
+suyog
+deepak
+
+Process finished with exit code 0
+ */
