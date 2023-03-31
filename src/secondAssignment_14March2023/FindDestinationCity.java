@@ -8,7 +8,7 @@ public class FindDestinationCity {
     public void destinationCity(String[][] input) {
         ArrayList<String> city = new ArrayList<>();
         for (int row = 0; row < input.length; row++) {
-            for (int column = 0; column < 2; column++) {
+            for (int column = 0; column < input[0].length; column++) {
                 city.add(input[row][column]);
             }
         }
