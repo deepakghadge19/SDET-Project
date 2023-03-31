@@ -1,1 +1,16 @@
 *.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+
+# JetBrains IDE
+.idea/
+
+*.iml
+
+out
+
+500000
