@@ -1,0 +1,27 @@
+Find Destination City
+
+Example 1:
+Input: paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+Output: "Sao Paulo"
+
+Example 2:
+Input: paths = [["B","C"],["D","B"],["C","A"]]
+Output: "A"
+
+Example 3:
+Input: paths = [["A","Z"]]
+Output: "Z"
+-----------------------------------------------------------------
+**OUTPUT**
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=59207:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" secondAssignment_14March2023.FindDestinationCity
+
+-------1st array of city------------
+Destination city is :Sao Paulo
+
+-------2nd array of city------------
+Destination city is :A
+
+-------3rd array of city------------
+Destination city is :Z
+
+Process finished with exit code 0
