@@ -1,29 +1,29 @@
 package FirstAssignment;
 
 public class CharactersEqualOccurrences {
+    public boolean areOccurrencesEqual(String inputString) {
+        int size = inputString.length();
+        int[] counts = new int[size];
+        int max = 0;
 
-	public static void main(String[] args) {
-		boolean b1;
-		b1 = areOccurrencesEqual("abacbc");
-		System.out.println("String abacbc is : " + b1);
-		b1 = areOccurrencesEqual("aaabb");
-		System.out.println("String aaabb is : " + b1);
-	}
+        for (char inputChar : inputString.toCharArray()) {
+            counts[inputChar - 'a']++;
+            max = Math.max(max, counts[inputChar - 'a']);
+        }
 
-	public static boolean areOccurrencesEqual(String s) {
-		int[] counts = new int[26];
-		int max = 0;
+        for (int count : counts) {
+            if (count != 0 && count != max) {
+                return false;
+            }
+        }
+        return true;
+    }
 
-		for (char c : s.toCharArray()) {
-			counts[c - 'a']++;
-			max = Math.max(max, counts[c - 'a']);
-		}
-
-		for (int count : counts) {
-			if (count != 0 && count != max) {
-				return false;
-			}
-		}
-		return true;
-	}
+    public static void main(String[] args) {
+        CharactersEqualOccurrences charactersEqualOccurrences = new CharactersEqualOccurrences();
+        String firstInput = "abacbc";
+        String SecondInput = "aaabb";
+        System.out.println("String abacbc is : " + charactersEqualOccurrences.areOccurrencesEqual(firstInput));
+        System.out.println("String abacbc is : " + charactersEqualOccurrences.areOccurrencesEqual(SecondInput));
+    }
 }
