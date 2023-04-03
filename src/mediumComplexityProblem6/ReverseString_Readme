@@ -1,0 +1,9 @@
+Q6. Write a program to reverse the string without changing the position of special character.
+Input = Ro@hitshetty
+Output = yt@teshtihor
+========================OUTPUT===============================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=60258:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem6.ReverseString
+Input String :Ro@hitshetty
+Reverse output string is :yt@tehstihoR
+
+Process finished with exit code 0
