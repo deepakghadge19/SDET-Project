@@ -1,0 +1,16 @@
+Q4. Given two strings, a and b,
+create a bigger string made of the first char of a, the first char of b,
+the second char of a, the second char of b, and so on.
+Any leftover chars go at the end of the result.
+
+mixString("abc", "xyz") → "axbycz" 
+mixString("Hi", "There") → "HTihere" 
+mixString("xxxx", "There") → "xTxhxexre"
+
+====================================OUTPUT====================================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=65228:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem4.MixString
+Final word for string 'abc' and 'xyz' is : axbycz
+Final word for string 'Hi' and 'There' is : HTihere
+Final word for string 'xxxx' and 'There' is : xTxhxexre
+
+Process finished with exit code 0
