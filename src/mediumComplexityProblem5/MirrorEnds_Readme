@@ -1,0 +1,16 @@
+Q5. Given a string, look for a mirror image (backwards) string at both the beginning and
+end of the given string. In other words, zero or more characters at the very begining
+of the given string, and at the very end of the string in reverse order (possibly overlapping).
+For example, the string "abXYZba" has the mirror end "ab".
+
+mirrorEnds("abXYZba") → "ab"
+mirrorEnds("abca") → "a"
+mirrorEnds("aba") → "aba"
+
+===============OUTPUT===================================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=65521:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem5.MirrorEnds
+Mirror ends for 'abXYZba' is :ab
+Mirror ends for 'abca' is :a
+Mirror ends for 'aba' is :aba
+
+Process finished with exit code 0
