@@ -1,0 +1,16 @@
+Q8. Program Write a singleton class
+
+Description: Singleton class means you can create only one object for the given class.
+You can create a singleton class by making its constructor as private,
+so that you can restrict the creation of the object.
+Provide a static method to get instance of the object,
+wherein you can handle the object creation inside the class only.
+In this example we are creating object by using static block.
+
+===========================OUTPUT===========================
+
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=62265:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem8.SingletonImplementation
+Constructor will invoke for only one object
+'firstObj and secondObj' are pointing to the same object
+
+Process finished with exit code 0
