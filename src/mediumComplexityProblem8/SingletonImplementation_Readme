@@ -9,8 +9,10 @@ In this example we are creating object by using static block.
 
 ===========================OUTPUT===========================
 
-"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=62265:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem8.SingletonImplementation
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=58956:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem8.SingletonTest
 Constructor will invoke for only one object
-'firstObj and secondObj' are pointing to the same object
+Hashcode of first object is :1705736037
+Hashcode of Second object is :1705736037
+'firstObj and secondObj' are equal so they are pointing to the same object
 
 Process finished with exit code 0
