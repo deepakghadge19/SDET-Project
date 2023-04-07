@@ -1,24 +1,33 @@
 package mediumComplexityProblem7;
 
-import java.util.Arrays;
-
 public class SortArray {
     public void ascendingSort(int[] inputArray) {
+        // Sort elements of original array in ascending order
         int firstCounter;
-        int secondCounter = 0;
-        Arrays.sort(inputArray);
-        for (firstCounter = 0; firstCounter < inputArray.length - 1; firstCounter++) {
-            if (inputArray[firstCounter] != inputArray[firstCounter + 1]) {
-                inputArray[secondCounter] = inputArray[firstCounter];
-                secondCounter++;
+        for (firstCounter = 0; firstCounter < inputArray.length; firstCounter++) {
+            for (int secondCounter = firstCounter + 1; secondCounter < inputArray.length; secondCounter++) {
+                if (inputArray[firstCounter] > inputArray[secondCounter]) {
+                    int temp = inputArray[firstCounter];
+                    inputArray[firstCounter] = inputArray[secondCounter];
+                    inputArray[secondCounter] = temp;
+                }
             }
         }
-        inputArray[secondCounter] = inputArray[inputArray.length - 1];
+        // Remove duplicates element from Ascending sort Array
+        int checkDuplicateCounter;
+        int tempArrayCounter = 0;
+        for (checkDuplicateCounter = 0; checkDuplicateCounter < inputArray.length - 1; checkDuplicateCounter++) {
+            if (inputArray[checkDuplicateCounter] != inputArray[checkDuplicateCounter + 1]) {
+                inputArray[tempArrayCounter] = inputArray[checkDuplicateCounter];
+                tempArrayCounter++;
+            }
+        }
+        inputArray[tempArrayCounter] = inputArray[inputArray.length - 1];
 
         //Displaying unique ascending sort elements from input array
         System.out.println("Unique ascending sort array elements:");
-        for (firstCounter = 0; firstCounter <= secondCounter; firstCounter++) {
-            System.out.print(inputArray[firstCounter] + " ");
+        for (checkDuplicateCounter = 0; checkDuplicateCounter <= tempArrayCounter; checkDuplicateCounter++) {
+            System.out.print(inputArray[checkDuplicateCounter] + " ");
         }
     }
 
