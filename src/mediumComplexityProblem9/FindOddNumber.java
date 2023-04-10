@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindOddNumber {
-    public Integer getElement(List<Integer> list, Integer indexOfOddNo) {
+    public Integer getElement(List<Integer> list, int indexOfOddNo) {
         int elementIndex = 2 * (indexOfOddNo - 1);
         return elementIndex > list.size() - 1 ? -1 : list.get(elementIndex);
     }
