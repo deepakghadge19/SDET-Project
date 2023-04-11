@@ -1,0 +1,9 @@
+Q9. Write a method that returns the nth odd element of a list.
+If the index of the element exceeds the list size, then return -1.
+
+=========================OUTPUT========================================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=63291:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem9.FindOddNumber
+5th odd number from list is : 9
+15th odd number from list is : -1
+
+Process finished with exit code 0
