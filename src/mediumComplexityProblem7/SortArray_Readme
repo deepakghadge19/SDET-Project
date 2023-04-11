@@ -1,0 +1,10 @@
+Q7. Write a program to sort the array in ascending order with unique element without using collections.
+Input = {1,2,3,9,8,7,6,5,1,2,1}
+Output = {1,2,3,5,6,7,8,9}
+
+===================================OUTPUT============================
+
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=61368:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" mediumComplexityProblem7.SortArray
+Unique ascending sort array elements:
+1 2 3 5 6 7 8 9
+Process finished with exit code 0
