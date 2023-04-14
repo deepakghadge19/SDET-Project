@@ -1,0 +1,14 @@
+Palindrome by swapping only one character
+Input : bbg
+Output : true
+Explanation: Swap b(1st index) with g.
+
+Input : gcagac
+Output : false
+==============================OUTPUT===============================
+
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=54749:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" javaCodingTestAssignments9.Palindrome
+Input string is 'bbg' :true
+Input string is 'gcagac' :false
+
+Process finished with exit code 0
