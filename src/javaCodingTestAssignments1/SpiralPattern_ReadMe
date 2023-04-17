@@ -1,0 +1,19 @@
+Print a spiral pattern of size n.
+
+Examples:
+Input : n = 5
+Output: 1  2  3  4  5
+    	16 17 18 19 6
+        15 24 25 20 7
+        14 23 22 21 8
+        13 12 11 10 9
+==========================OUTPUT===========================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=50258:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" javaCodingTestAssignments1.SpiralPattern
+Spiral Pattern as below :
+1  2  3  4  5
+16 17 18 19 6
+15 24 25 20 7
+14 23 22 21 8
+13 12 11 10 9
+
+Process finished with exit code 0
