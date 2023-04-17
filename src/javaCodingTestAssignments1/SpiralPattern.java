@@ -65,6 +65,7 @@ public class SpiralPattern {
 
     public static void main(String[] args) {
         SpiralPattern spiralPattern = new SpiralPattern();
+        System.out.println("Spiral Pattern as below :");
         spiralPattern.printSpiral(5);
     }
 }
