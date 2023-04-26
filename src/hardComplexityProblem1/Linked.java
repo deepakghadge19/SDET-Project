@@ -1,4 +1,4 @@
-package HardComplexityProblem1;
+package hardComplexityProblem1;
 
 public class Linked {
     //It merges the k sorted linked lists

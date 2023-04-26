@@ -1,4 +1,4 @@
-package HardComplexityProblem1;
+package hardComplexityProblem1;
 
 public class Node {
     Node next;

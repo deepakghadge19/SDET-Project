@@ -1,6 +1,4 @@
-package HardComplexityProblem1;
-
-import java.util.Arrays;
+package hardComplexityProblem1;
 
 public class LinkedListApp {
     public static void main(String[] args) {
