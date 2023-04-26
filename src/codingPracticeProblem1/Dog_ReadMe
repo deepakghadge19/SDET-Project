@@ -1,0 +1,16 @@
+Question :
+Write a Java program to create a class called "Dog" with a name and breed attribute.
+Create two instances of the "Dog" class, set their attributes using the constructor and
+modify the attributes using the setter methods and print the updated values.
+
+========================OUTPUT===================================================
+
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=53975:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" codingPracticeProblem1.Dog
+Buddy is a Golden Retriever.
+Charlie is a Bulldog.
+
+Set the new Breed of FirstDog and new name of SecondDog:
+Buddy is now a Labrador Retriever.
+Daisy is now a Bulldog.
+
+Process finished with exit code 0
