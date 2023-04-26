@@ -1,4 +1,4 @@
-package FirstAssignment;
+package firstAssignment;
 
 public class CharactersEqualOccurrences {
     public boolean areOccurrencesEqual(String inputString) {
