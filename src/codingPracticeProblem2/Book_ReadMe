@@ -1,0 +1,16 @@
+Problem Statement 2 :
+Write a Java program to create a class called "Book" with attributes for title,author and methods
+to add and remove books from a collection.
+
+======================OUTPUT=====================================
+
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=52458:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" codingPracticeProblem2.Book
+List of books:
+C Programming by Dennis Ritchie
+Effective Java by Joshua Bloch
+
+After removing C Programming:
+List of books:
+Effective Java by Joshua Bloch
+
+Process finished with exit code 0
