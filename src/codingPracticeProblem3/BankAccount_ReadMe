@@ -1,0 +1,18 @@
+Problem 3 :
+Write a Java program to create a class called "Bank" with a collection of accounts and methods to deposit and
+withdraw money. Also define a class called "Account" to maintain account details of a particular customer.
+
+==============================OUTPUT=============================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=58368:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" codingPracticeProblem3.Main
+Name: Ramesh, Account Number: C0011, Balance: 10000.0
+Name: Suresh, Account Number: C0121, Balance: 15000.0
+Name: Rajesh, Account Number: C0222, Balance: 20000.0
+
+After depositing 1000 into First Account:
+Name: Ramesh, Account Number: C0011, Balance: 11000.0
+No transaction in the Second Account:
+Name: Suresh, Account Number: C0121, Balance: 15000.0
+After withdrawing 5000 from Third Account:
+Name: Rajesh, Account Number: C0222, Balance: 15000.0
+
+Process finished with exit code 0
