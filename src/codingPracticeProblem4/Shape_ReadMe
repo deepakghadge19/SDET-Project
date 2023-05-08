@@ -1,0 +1,18 @@
+Problem4 :
+Write a Java program to create a class called "Shape" with abstract methods for calculating area and perimeter,
+and subclasses for "Rectangle" and "Circle".
+
+================================OUTPUT======================================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=54577:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project" codingPracticeProblem4.Main
+
+Area and perimeter of various shapes:
+
+Rectangle: Length=10, Width=12
+Area: 120.0
+Perimeter: 44.0
+
+Circle: Radius=5
+Area: 78.53981633974483
+Perimeter: 31.41592653589793
+
+Process finished with exit code 0
