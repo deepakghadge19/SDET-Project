@@ -1,0 +1,18 @@
+Problem6 :
+Write a Java program to create a class Vehicle with a method called speedUp().
+Create two subclasses Car and Bicycle. Override the speedUp() method in each subclass to increase the vehicle's speed
+differently.
+===========================OUTPUT=========================
+"C:\Program Files\Java\jdk-17.0.4.1\bin\java.exe" -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:50282,suspend=y,server=n -javaagent:C:\Users\deepakg\AppData\Local\JetBrains\IdeaIC2022.3\captureAgent\debugger-agent.jar -Dfile.encoding=UTF-8 -classpath "F:\TI Automation workspace\eclipse-workspace\SDET_Project\out\production\SDET_Project;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar" codingPracticeProblem6.Main
+Connected to the target VM, address: '127.0.0.1:50282', transport: 'socket'
+Car initial speed: 0
+Motorcycle initial speed: 0
+
+Car speed increased by 22 units.
+Motorcycle speed increased by 12 units
+
+Car speed after speeding up: 10
+Motorcycle speed after speeding up: 10
+Disconnected from the target VM, address: '127.0.0.1:50282', transport: 'socket'
+
+Process finished with exit code 0
